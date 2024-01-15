@@ -1,4 +1,9 @@
-﻿int numOfLInes = int.Parse(Console.ReadLine());
+namespace HelloWorld
+{
+    class Hello {         
+        static void Main(string[] args)
+        {
+            int numOfLInes = int.Parse(Console.ReadLine());
 double[] num = new double[numOfLInes * 2 + 2];
 double lenght = 0;
 for (int i = 0; i < numOfLInes * 2 + 2; i++)
@@ -18,4 +23,7 @@ double Lenght(double n = 0, double n1 = 0, double n2 = 0, double n3 = 0)
     int num2 = (int)num;
     return Math.Sqrt(num2);
 
+}
+        }
+    }
 }
